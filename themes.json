@@ -1,0 +1,14 @@
+{
+    "dark_neon": {
+        "background": "black",
+        "banner": "cyan",
+        "panel_border": "magenta",
+        "text": "green"
+    },
+    "cyberpunk": {
+        "background": "black",
+        "banner": "magenta",
+        "panel_border": "cyan",
+        "text": "bright_green"
+    }
+}
