@@ -1,16 +1,7 @@
-#!/bin/bash
-# Aosmix - Minimalist Termux Theme
-# Author: Hynx Studios
+#!/data/data/com.termux/files/usr/bin/bash
+echo "🔧 Installing Your UI..."
 
-# Load colors
-source $HOME/Aosmix/colors.properties
+cp ~/.bashrc ~/.bashrc.bak
+echo "python ~/Aosmix/aosmix.py" >> ~/.bashrc
 
-# Clear screen
-clear
-
-# Show banner
-cat $HOME/Aosmix/banner.txt | lolcat
-
-# Show MOTD
-echo -e "${GREEN}Welcome to Aosmix - Minimalist Termux Theme${RESET}"
-echo -e "${BLUE}Type 'help' to see custom commands${RESET}"
+echo "✅ UI installed. Restart Termux to launch."
